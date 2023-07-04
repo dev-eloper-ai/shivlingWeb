@@ -1,6 +1,7 @@
 *{margin: 0;padding: 0;box-sizing: border-box;}
 body{
     background-color: #fff;
+    color: #3f3f3f;
 }
 .py-70{
     padding: 70px 0;
@@ -187,4 +188,45 @@ header{
 
 .formSec{
     background: #f1f1f1;
+    &_iconList{
+        &_item{
+            padding: 10px 25px;
+            background-color: #9E9E9E;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            i{font-size: 45px;color: #fff;}
+            span{
+                color: #fff;
+                font-size: 22px;
+                margin-left: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+    form{
+        .form-label{
+            font-size: 18px;
+        }
+        .form-control{
+            height: 52px;
+            font-size: 18px;
+            padding: 7px 20px;
+            &:focus{
+                box-shadow: none;
+                border-color: #F7941E;
+            }
+        }
+    }
+}
+
+.footerSec{
+    .footerHead{
+        margin-bottom: 35px;
+        h3{
+            font-size: 30px;
+            color: #3f3f3f;
+        }
+    }
 }

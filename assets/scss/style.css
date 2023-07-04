@@ -6,6 +6,7 @@
 
 body {
   background-color: #fff;
+  color: #3f3f3f;
 }
 
 .py-70 {
@@ -190,4 +191,42 @@ header .nav-link.active {
 
 .formSec {
   background: #f1f1f1;
+}
+.formSec_iconList_item {
+  padding: 10px 25px;
+  background-color: #9E9E9E;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.formSec_iconList_item i {
+  font-size: 45px;
+  color: #fff;
+}
+.formSec_iconList_item span {
+  color: #fff;
+  font-size: 22px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.formSec form .form-label {
+  font-size: 18px;
+}
+.formSec form .form-control {
+  height: 52px;
+  font-size: 18px;
+  padding: 7px 20px;
+}
+.formSec form .form-control:focus {
+  box-shadow: none;
+  border-color: #F7941E;
+}
+
+.footerSec .footerHead {
+  margin-bottom: 35px;
+}
+.footerSec .footerHead h3 {
+  font-size: 30px;
+  color: #3f3f3f;
 }/*# sourceMappingURL=style.css.map */
